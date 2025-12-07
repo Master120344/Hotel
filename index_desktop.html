@@ -1,218 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>DirectStay · Honest Hotel Booking. Flat $5. Instant Payouts.</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="DirectStay is the hotel booking platform that charges a flat $5 fee, sends instant payouts to hotels, and keeps pricing honest for guests. No hidden fees. No games.">
-  <link rel="stylesheet" href="css/index_desktop.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DirectStay | The New Standard of Hotel Booking</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Manrope:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index_desktop.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="page-root">
-    <header class="ds-header" id="top">
-      <div class="ds-header-inner">
-        <div class="ds-logo-wrap">
-          <div class="ds-logo-mark">
-            <span class="ds-logo-mark-inner"></span>
-          </div>
-          <div class="ds-logo-text">
-            <span class="ds-logo-main">DirectStay</span>
-            <span class="ds-logo-sub">Flat Fee. Instant Pay.</span>
-          </div>
+
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <header id="main-header">
+        <div class="header-container">
+            <div class="logo-area">
+                <span class="logo-mark">DS</span>
+                <span class="logo-text">DirectStay</span>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#manifesto" class="nav-link">The Truth</a></li>
+                    <li><a href="#hotels" class="nav-link">For Hotels</a></li>
+                    <li><a href="#travelers" class="nav-link">For Travelers</a></li>
+                    <li><a href="#booking" class="nav-button">Start Search</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav class="ds-nav">
-          <a href="#why" class="ds-nav-link">Why DirectStay</a>
-          <a href="#how" class="ds-nav-link">How It Works</a>
-          <a href="#hotels" class="ds-nav-link">For Hotels</a>
-          <a href="#guests" class="ds-nav-link">For Guests</a>
-          <a href="#faq" class="ds-nav-link">FAQ</a>
-        </nav>
-        <div class="ds-header-actions">
-          <button class="ds-btn ds-btn-text" data-scroll="#demo">Live Demo</button>
-          <button class="ds-btn ds-btn-primary" data-scroll="#waitlist">Join Early Access</button>
-          <button class="ds-header-burger" id="ds-header-burger">
-            <span class="ds-header-burger-line"></span>
-            <span class="ds-header-burger-line"></span>
-          </button>
-        </div>
-      </div>
-      <div class="ds-mobile-nav" id="ds-mobile-nav">
-        <a href="#why" class="ds-mobile-link">Why DirectStay</a>
-        <a href="#how" class="ds-mobile-link">How It Works</a>
-        <a href="#hotels" class="ds-mobile-link">For Hotels</a>
-        <a href="#guests" class="ds-mobile-link">For Guests</a>
-        <a href="#faq" class="ds-mobile-link">FAQ</a>
-        <button class="ds-btn ds-btn-primary ds-mobile-cta" data-scroll="#waitlist">Join Early Access</button>
-      </div>
     </header>
 
-    <main class="ds-main">
-      <section class="ds-hero">
-        <div class="ds-hero-bg"></div>
-        <div class="ds-hero-inner">
-          <div class="ds-hero-left">
-            <div class="ds-hero-badge-row">
-              <div class="ds-hero-badge">
-                <span class="ds-pill-dot"></span>
-                Flat $5 per booking. Ever.
-              </div>
-              <div class="ds-hero-badge ds-hero-badge-soft">
-                Instant payouts for hotels in seconds.
-              </div>
+    <main>
+        <section class="hero-section">
+            <div class="hero-bg-wrapper">
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=3270&auto=format&fit=crop" alt="Luxury Hotel Architecture" class="hero-img parallax-target">
+                <div class="hero-overlay"></div>
             </div>
-            <h1 class="ds-hero-title">
-              Hotel booking that stops playing games with your money.
-            </h1>
-            <p class="ds-hero-subtitle">
-              DirectStay replaces 15–25% commissions and delayed payouts with a clean flat $5 fee, instant hotel payouts, and raw, honest pricing for guests. No fake discounts. No surprise fees. No bullshit.
-            </p>
-            <div class="ds-hero-actions">
-              <button class="ds-btn ds-btn-primary ds-hero-primary" data-scroll="#waitlist">
-                Get on the early access list
-              </button>
-              <button class="ds-btn ds-btn-ghost ds-hero-secondary" data-scroll="#how">
-                See how DirectStay works
-              </button>
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="line-reveal">The Middleman</span>
+                    <span class="line-reveal">Is Finally Dead.</span>
+                </h1>
+                <p class="hero-sub">
+                    No hidden fees. No 25% commissions. Just honest, instant booking.
+                </p>
+                
+                <div class="booking-engine-wrapper">
+                    <form class="booking-engine">
+                        <div class="input-group">
+                            <label>Destination</label>
+                            <input type="text" placeholder="Where are you going?" class="stealth-input">
+                        </div>
+                        <div class="divider"></div>
+                        <div class="input-group">
+                            <label>Check In</label>
+                            <input type="text" placeholder="Add dates" class="stealth-input date-trigger">
+                        </div>
+                        <div class="divider"></div>
+                        <div class="input-group">
+                            <label>Check Out</label>
+                            <input type="text" placeholder="Add dates" class="stealth-input date-trigger">
+                        </div>
+                        <div class="divider"></div>
+                        <div class="input-group">
+                            <label>Guests</label>
+                            <input type="number" value="1" min="1" class="stealth-input">
+                        </div>
+                        <button type="button" class="search-btn">
+                            <span class="btn-text">Find Room</span>
+                            <div class="btn-fill"></div>
+                        </button>
+                    </form>
+                </div>
             </div>
-            <div class="ds-hero-metrics">
-              <div class="ds-metric">
-                <div class="ds-metric-value" data-counter="48000">0</div>
-                <div class="ds-metric-label">Average annual savings per hotel</div>
-              </div>
-              <div class="ds-metric">
-                <div class="ds-metric-value" data-counter="5">0</div>
-                <div class="ds-metric-label">Flat fee per booking</div>
-              </div>
-              <div class="ds-metric">
-                <div class="ds-metric-value" data-counter="3">0</div>
-                <div class="ds-metric-label">Seconds to payout</div>
-              </div>
+            <div class="scroll-indicator">
+                <span>The DirectStay Philosophy</span>
+                <div class="line"></div>
             </div>
-            <div class="ds-hero-trust">
-              <span class="ds-hero-trust-label">Built for:</span>
-              <div class="ds-hero-trust-tags">
-                <span class="ds-tag">Independent hotels</span>
-                <span class="ds-tag">Boutique chains</span>
-                <span class="ds-tag">Extended stay</span>
-                <span class="ds-tag">City and resort properties</span>
-              </div>
-            </div>
-          </div>
-          <div class="ds-hero-right">
-            <div class="ds-hero-card">
-              <div class="ds-hero-card-header">
-                <div class="ds-hero-card-title-block">
-                  <span class="ds-hero-card-title">DirectStay snapshot</span>
-                  <span class="ds-hero-card-subtitle">One week at a 120-room hotel</span>
-                </div>
-                <div class="ds-hero-card-pill">
-                  Live projection
-                </div>
-              </div>
-              <div class="ds-hero-card-body">
-                <div class="ds-card-row">
-                  <div class="ds-card-label">Rooms booked</div>
-                  <div class="ds-card-value ds-card-value-strong">312</div>
-                </div>
-                <div class="ds-card-row">
-                  <div class="ds-card-label">Guests pay</div>
-                  <div class="ds-card-value">$98.00 nightly average</div>
-                </div>
-                <div class="ds-card-row">
-                  <div class="ds-card-label">With legacy OTAs</div>
-                  <div class="ds-card-value ds-card-bad">
-                    −$6,860 in commissions
-                  </div>
-                </div>
-                <div class="ds-card-row">
-                  <div class="ds-card-label">With DirectStay</div>
-                  <div class="ds-card-value ds-card-good">
-                    −$1,560 in flat fees
-                  </div>
-                </div>
-                <div class="ds-card-divider"></div>
-                <div class="ds-card-row ds-card-row-total">
-                  <div class="ds-card-label">Profit you keep</div>
-                  <div class="ds-card-value ds-card-highlight">
-                    +$5,300 back in your pocket
-                  </div>
-                </div>
-                <div class="ds-card-footnote">
-                  Example based on a 120-room property at 37% occupancy. Actual results vary by rate, occupancy, and mix of channels.
-                </div>
-              </div>
-              <div class="ds-hero-card-footer">
-                <button class="ds-btn ds-btn-full" data-scroll="#hotels">
-                  See how this works for your property
-                </button>
-              </div>
-            </div>
-            <div class="ds-hero-floating-panel">
-              <div class="ds-floating-header">
-                <span class="ds-floating-dot ds-floating-dot-green"></span>
-                Instant payout stream
-              </div>
-              <div class="ds-floating-scroller" id="payout-stream">
-                <div class="ds-floating-item">
-                  <div class="ds-floating-label">Suite 19 • 3 nights</div>
-                  <div class="ds-floating-value">Paid to hotel in 2.4s</div>
-                </div>
-                <div class="ds-floating-item">
-                  <div class="ds-floating-label">King City View • 1 night</div>
-                  <div class="ds-floating-value">Paid to hotel in 3.1s</div>
-                </div>
-                <div class="ds-floating-item">
-                  <div class="ds-floating-label">Double Room • 5 nights</div>
-                  <div class="ds-floating-value">Paid to hotel in 2.9s</div>
-                </div>
-                <div class="ds-floating-item">
-                  <div class="ds-floating-label">Studio Loft • 2 nights</div>
-                  <div class="ds-floating-value">Paid to hotel in 3.0s</div>
-                </div>
-                <div class="ds-floating-item">
-                  <div class="ds-floating-label">Queen Garden • 4 nights</div>
-                  <div class="ds-floating-value">Paid to hotel in 2.7s</div>
-                </div>
-              </div>
-              <button class="ds-floating-cta" data-scroll="#demo">Watch a simulated payout</button>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- the rest of the sections are identical to what I sent before -->
-      <!-- To keep things tight here, you can paste the remaining sections
-           (Why, How, Hotels, Guests, Demo, Waitlist, FAQ, CTA, Footer)
-           from my last message straight under this hero section. -->
+        <section id="manifesto" class="manifesto-section">
+            <div class="container">
+                <div class="text-block" data-scroll>
+                    <h2 class="section-heading">The Industry <br>Has Failed You.</h2>
+                    <p class="lead-text">
+                        For over two decades, the hotel industry has been built on a lie. Major booking sites are designed to squeeze both hotels and travelers, hiding fees, burying commissions, and manipulating prices. They delay payouts to earn interest on your money.
+                    </p>
+                    <p class="body-text">
+                        DirectStay was created to burn that system down and replace it with something radical: <strong>Truth.</strong> We removed the middleman game completely. We don't charge 15-25% commissions. We don't hold money hostage. We are the first platform designed to respect the people who make travel possible.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="hotels" class="split-section">
+            <div class="split-image-wrapper" data-scroll>
+                <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2970&auto=format&fit=crop" alt="Hotel Interior" class="split-img parallax-target">
+            </div>
+            <div class="split-content-wrapper">
+                <div class="content-box" data-scroll>
+                    <span class="tag">For Hotels</span>
+                    <h3>The $5 Revolution</h3>
+                    <p>Stop losing 25% of your revenue. DirectStay uses a single, flat $5 fee per booking. No tiers. No seasonal markups. No surprises.</p>
+                    
+                    <div class="stat-grid">
+                        <div class="stat-item">
+                            <span class="stat-number">25%</span>
+                            <span class="stat-label">Competitor Fee</span>
+                        </div>
+                        <div class="stat-item highlight">
+                            <span class="stat-number">$5</span>
+                            <span class="stat-label">DirectStay Fee</span>
+                        </div>
+                    </div>
+
+                    <div class="feature-highlight">
+                        <h4>Instant Payouts</h4>
+                        <p>Traditional OTAs make you wait weeks. We send the complete payout within seconds of a guest booking. The money is yours immediately.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="banner-section">
+            <div class="banner-text-loop">
+                <span>Zero Hidden Fees &nbsp; • &nbsp; Instant Payouts &nbsp; • &nbsp; Total Transparency &nbsp; • &nbsp; No Manipulated Pricing &nbsp; • &nbsp; </span>
+                <span>Zero Hidden Fees &nbsp; • &nbsp; Instant Payouts &nbsp; • &nbsp; Total Transparency &nbsp; • &nbsp; No Manipulated Pricing &nbsp; • &nbsp; </span>
+            </div>
+        </section>
+
+        <section id="travelers" class="traveler-section">
+            <div class="container">
+                <div class="section-header center-align" data-scroll>
+                    <span class="tag">For Travelers</span>
+                    <h2>No Gimmicks.<br>Just The Room.</h2>
+                </div>
+                
+                <div class="cards-grid">
+                    <div class="card" data-scroll>
+                        <div class="card-icon"></div>
+                        <h3>True Pricing</h3>
+                        <p>No "70% off today only" lies. No resort fees appearing at checkout. We show the true price the hotel wants to charge, not a manipulated version designed to trick you.</p>
+                    </div>
+                    <div class="card" data-scroll>
+                        <div class="card-icon"></div>
+                        <h3>Better Inventory</h3>
+                        <p>Because hotels keep nearly 100% of the revenue, they offer their best rooms and exclusive deals on DirectStay instead of commission-heavy platforms.</p>
+                    </div>
+                    <div class="card" data-scroll>
+                        <div class="card-icon"></div>
+                        <h3>Human Design</h3>
+                        <p>No pop-ups. No upsells. No ads. Just a clean, fast interface designed to get you booked and on your way. Booking shouldn't be a battle.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="visual-break">
+            <div class="visual-content" data-scroll>
+                <h2>A Platform Built on<br>Honesty, Not Extraction.</h2>
+                <a href="#" class="cta-button-large">Join the Revolution</a>
+            </div>
+            <div class="video-bg-overlay"></div>
+            <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=2970&auto=format&fit=crop" class="bg-img parallax-target">
+        </section>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-top">
+                    <div class="footer-brand">
+                        <h2>DirectStay</h2>
+                        <p>The new standard for what hotel booking is supposed to be.</p>
+                    </div>
+                    <div class="footer-links">
+                        <div class="link-col">
+                            <h4>Platform</h4>
+                            <a href="#">Search</a>
+                            <a href="#">List Your Property</a>
+                            <a href="#">The $5 Model</a>
+                        </div>
+                        <div class="link-col">
+                            <h4>Company</h4>
+                            <a href="#">Manifesto</a>
+                            <a href="#">Careers</a>
+                            <a href="#">Contact</a>
+                        </div>
+                        <div class="link-col">
+                            <h4>Legal</h4>
+                            <a href="#">Privacy</a>
+                            <a href="#">Terms</a>
+                            <a href="#">Transparency Report</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 DirectStay Inc. All Rights Reserved.</p>
+                    <p>Designed for the future.</p>
+                </div>
+            </div>
+        </footer>
     </main>
-
-    <footer class="ds-footer">
-      <div class="ds-footer-inner">
-        <div class="ds-footer-left">
-          <div class="ds-footer-logo">
-            <span class="ds-footer-logo-mark"></span>
-            <span class="ds-footer-logo-text">DirectStay</span>
-          </div>
-          <div class="ds-footer-copy">
-            DirectStay is an independent booking platform in active development. All examples on this page are illustrative.
-          </div>
-        </div>
-        <div class="ds-footer-right">
-          <div class="ds-footer-links">
-            <a href="#faq" class="ds-footer-link">FAQ</a>
-            <a href="#waitlist" class="ds-footer-link">Early access</a>
-          </div>
-          <div class="ds-footer-meta">
-            <span>© <span id="ds-year"></span> DirectStay. All rights reserved.</span>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </div>
-
-  <script src="js/index_desktop.js"></script>
+    
+    <script src="js/index_desktop.js"></script>
 </body>
 </html>
